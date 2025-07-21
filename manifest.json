@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Comet Light Theme",
+    "version": "0.6.1.4",
+    "author":"jyunni",
+    "description": "코멧(comet-talk.ai)에서 밝은 테마를 즐겨보세요!",
+    "host_permissions": [
+        "https://comet-talk.ai/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://comet-talk.ai/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    }
+}

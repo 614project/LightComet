@@ -1,0 +1,310 @@
+body {
+    background-color: #fff !important;
+}
+
+.category-header h3 {
+    color: black !important;
+}
+
+.text-container h4 {
+    color: black !important;
+}
+
+.header-border, .header-textbtn {
+    background-color: #fafafa !important;
+}
+
+.session-button {
+    background-color: #f7f7f7 !important;
+    color: black !important;
+}
+.header-textbtn.selected-btn {
+    color: black !important;
+}
+.header-textbtn {
+    color: #666 !important;
+}
+
+.banner-page-show {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.search-container input {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.search-btn {
+    background-color: #fff !important;
+}
+
+.header-svgbtn {
+    background-color: #fff !important;
+}
+
+.profile-modal, .notice-modal {
+    background-color: #f2f2f2 !important;
+    box-shadow: 0 2px 8px #aaa !important;
+}
+.profile-container, .con-container {
+    background-color: #fff !important;
+}
+.profile-container h4, .con-container h4 {
+    color: black !important;
+}
+
+.notice-modal h3, .notice-modal-showmore, .notice-item-icon-container p {
+    color: black !important;
+}
+.notice-item-info p {
+    color: black !important;
+}
+
+.widget-item p, .widget-icon-container p {
+    color: black !important;
+}
+
+.session-title h4, .creation-visibility h4 {
+    color: black !important;
+}
+
+.creation-box:hover, .announcement-container:hover, .receipt-container:hover, .sidebar-item:hover, .menubar-item:hover,
+.session-menu-btn:hover, .follow-box:hover, .main-char-container:hover, .item-container:hover, .session-container:hover,
+.widget-item:hover, .delete-btn-cancel:hover, .delete-btn-confirm:hover, .character-container:hover {
+    background-color: #ddd !important;
+}
+.creation-btn:hover, .delete-btn:hover, .container-right-creator:hover {
+    background-color: #eee !important;
+}
+.profile-container:hover, .con-container:hover {
+    background-color: #eaeaea !important;
+}
+
+.announcement-container h4, .announcement-typebox, .follow-text-container h4  {
+    color: black !important;
+}
+
+.content-makenew {
+    background-color: #d9d9d9 !important;
+    border: 2px dashed black !important;
+}
+.content-makenew p {
+    color: black !important;
+}
+
+.tab-element, .thumbnail-box {
+    background-color: #e9e9e9 !important;
+}
+.tab-element color {
+    color: black !important;
+}
+
+.content-title h3, .creation-info h4, .tab-element p {
+    color: black !important;
+}
+
+.content-container .header-container, .buy-credit-box {
+    background-color: #eee !important;
+}
+.total-money-container h2, .paid-money p, .free-money p {
+    color: black !important;
+}
+.buy-credit-box h4 {
+    color: black !important;
+}
+
+.description-container, .comment-input-container textarea {
+    background-color: #eee !important;
+    color: black !important;
+}
+.description-container {
+    color: black !important;
+}
+.purchase-btn, .var-pill {
+    background-color: #eee !important;
+    color: black !important;
+}
+
+.preview-like-btn {
+    background-color: white !important;
+    color: black !important;
+}
+
+.container-right-creator {
+    background-color: #fff !important;
+}
+.container-right-creator h4 {
+    color: black !important;
+}
+
+.receipt-title h4, .receipt-title p {
+    color: black !important;
+}
+
+.content-title select, .content-title select option, .follow-button {
+    background-color: #eee !important;
+    color: black !important;
+}
+
+.edit-textbox h3, .edit-modal h4 {
+    color: black !important;
+}
+
+.session-header, .message-input-container textarea, .edit-modal textarea, .edit-modal input, .reply-inputbox textarea {
+    background-color: #f8f8f8 !important;
+    color: black !important;
+}
+.message-input {
+    box-shadow: 0 0 10px 3px #aaa !important;
+}
+
+.menubar, .sidebar-box {
+    background-color: white !important;
+}
+.menubar h4, .menubar-item p, .sidebar-box h4, .sidebar-item p {
+    color: black !important;
+}
+.menubar img, .sidebar-box img, .session-menu-btn img, .search-btn img, .edit-button img, .log-btn-container img,
+.creation-stats img, .preview-like-btn img, .header-border .header-container .header-svgbtn img, .tab-btn img,
+.widget-icon-container img, .credit-image img,.content-makenew img, .image-container img,.credit-img img,
+.creation-btn img, .comment-menu img, .item-image img, .add-sprite img, .logout-button img, .delete-btn img,
+.con-container img {
+    filter: invert(1) !important;
+}
+
+.carousel button svg {
+    filter: invert(0.0614) !important;
+}
+
+.tab-container, .tab-btn, .credit-container, .banner-container {
+    background-color: #f6f6f6 !important;
+}
+.tab-btn p, .comment-title-container h3 {
+    color: black !important;
+}
+
+.header-text, .credit-container h4 {
+    color: black !important;
+}
+.header-svgbtn {
+    background-color: white !important;
+}
+.header-border .header-container .header-svgbtn img[data-v-0a43019d] {
+    filter: none !important;
+}
+
+.persona-box, .add-sprite, .visibility-btn {
+    background-color: #eee !important;
+}
+.visibility-btn.visibility-selected {
+    background-color: #00f6b6 !important;
+}
+.persona-box h3, .persona-add-button p {
+    color: black !important;
+}
+.persona-box p, .badge-item p {
+    color: #666 !important;
+}
+.persona-add-button {
+    background-color: #ddd !important;
+    border: 2px dashed black !important;
+}
+
+.content-half-box input, .content-half-box textarea, .content-fullbox textarea {
+    background-color: #eee !important;
+    color: black !important;
+}
+.content-half-box h3, .content-fullbox h3 {
+    color: black !important;
+}
+
+.content-half-box .template-button, .content-select, .content-start-session, .content-add-lorebook {
+    background-color: #eee !important;
+}
+.content-log-left {
+    background-color: #fff !important;
+    color: black !important;
+}
+select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6] {
+    background-color: #eee !important;
+    color: black !important;
+}
+.template-button p, .content-select, .content-select option, .content-log option, select[data-v-483a569f] option, select[data-v-4dd2da99] option, select[data-v-cbd07df6] option {
+    color: black !important;
+}
+
+.content-start-varname, .content-add-lorebook, .title-container h3 {
+    color: black !important;
+}
+.content-start-session input {
+    background-color: #fff !important;
+    color: black !important;
+}
+.image-edit-preview, .edit-confirm {
+    background-color: #eee !important;
+}
+
+.image-edit-box, .edit-button {
+    background-color: #fff !important;
+}
+.image-edit-inputs h4 {
+    color: black !important;
+}
+.image-edit-inputs input, .image-edit-confirm-btn, .image-edit-inputs textarea {
+    background-color: #eee !important;
+    color: black !important;
+}
+.image-edit-cancel-btn, .edit-cancel {
+    background-color: #bbb !important;
+    color: black !important;
+}
+
+.hashtag-var-pill, .tab-empty-textbox, .home-edit-button, .profile-button {
+    background-color: #e9e9e9 !important;
+    color: black !important;
+}
+
+.profile-info-container h2, .item-container p {
+    color: black !important;
+}
+.edit-modal, .delete-modal {
+    background-color: #fff !important;
+}
+.description-container, .notice-header {
+    background-color: #f7f7f7 !important;
+}
+.edit-modal h5, .notice-header-container h3, .delete-modal h4 {
+    color: black !important;
+}
+.description-container p, .profile-info-container p, .category-header p {
+    color: #555 !important;
+}
+
+.filter-container select, .filter-container option {
+    background-color: #e9e9e9 !important;
+    color: black !important;
+}
+
+.sidebar-item.sidebar-selected, .error-container {
+    background-color: #e9e9e9 !important;
+}
+
+.main-char-text h3, .comment-text p, .comment-text h4, .info-container h5, .error-container h3 {
+    color: black !important;
+}
+.main-char-text p, .profile-text p, .tag-pill, .info-container p, .free-money h4, .delete-modal p, .creator-info p {
+    color: #333 !important;
+}
+.main-char-text h4, .comment-text h5, .description-date, .profile-text-container p, .error-container h4, .character-info p {
+    color: #444 !important;
+}
+
+.button-container .go-prev, .delete-btn-cancel {
+    background-color: #e9e9e9 !important;
+    color: black !important;
+}
+
+.content-header h3, .character-info h4 {
+    color: black !important;
+}
