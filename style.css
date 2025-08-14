@@ -71,11 +71,15 @@ body {
 .edit-button:hover {
     background-color: #ddd !important;
 }
-.creation-btn:hover, .delete-btn:hover, .container-right-creator:hover, .edit-cancel:hover, .user-container:hover, .container-recent-preview:hover {
+.creation-btn:hover, .delete-btn:hover, .container-right-creator:hover, .edit-cancel:hover, .user-container:hover,
+.container-recent-preview:hover, .profile-container:hover {
     background-color: #eee !important;
 }
-.profile-container:hover, .con-container:hover, .edit-confirm:hover, .header-textbtn:hover {
+.con-container:hover, .edit-confirm:hover, .header-textbtn:hover {
     background-color: #eaeaea !important;
+}
+.notice-item:hover {
+    background-color: white !important;
 }
 
 .announcement-container h4, .announcement-typebox, .follow-text-container h4  {
@@ -334,7 +338,7 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 .user-info h4 {
     color: black !important;
 }
-.user-info p {
+.user-info p, .profile-info-container h5 {
     color: #666 !important;
 }
 .edit-banner-container, .edit-profile-container, .edit-button {
