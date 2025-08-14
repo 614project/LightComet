@@ -38,7 +38,10 @@ body {
 .search-btn {
     background-color: #fff !important;
 }
-
+.variable-edit-modal {
+    background-color: white !important;
+    box-shadow: 0 2px 8px #bbb !important;    
+}
 .profile-modal, .notice-modal {
     background-color: #f2f2f2 !important;
     box-shadow: 0 2px 8px #aaa !important;
@@ -50,11 +53,14 @@ body {
     color: black !important;
 }
 
-.notice-modal h3, .notice-modal-showmore, .notice-item-icon-container p {
+.notice-modal h3, .notice-modal-showmore, .notice-item-icon-container p, .variable-edit-modal h4 {
     color: black !important;
 }
 .notice-item-info p {
     color: black !important;
+}
+.variable-edit-modal p {
+    color:#555 !important;
 }
 
 .widget-item p, .widget-icon-container p {
@@ -68,11 +74,11 @@ body {
 .creation-box:hover, .announcement-container:hover, .receipt-container:hover, .sidebar-item:hover, .menubar-item:hover,
 .session-menu-btn:hover, .follow-box:hover, .main-char-container:hover, .item-container:hover, .session-container:hover,
 .widget-item:hover, .delete-btn-cancel:hover, .delete-btn-confirm:hover, .character-container:hover, .option-box:hover,
-.edit-button:hover {
+.edit-button:hover, .confirm-button:hover, .cancel-button:hover {
     background-color: #ddd !important;
 }
 .creation-btn:hover, .delete-btn:hover, .container-right-creator:hover, .edit-cancel:hover, .user-container:hover,
-.container-recent-preview:hover, .profile-container:hover {
+.container-recent-preview:hover, .profile-container:hover, .property-option:hover {
     background-color: #eee !important;
 }
 .con-container:hover, .edit-confirm:hover, .header-textbtn:hover {
@@ -161,8 +167,8 @@ body {
     box-shadow: 0 0 10px 3px #aaa !important;
 }
 
-.menubar, .sidebar-box {
-    background-color: white !important;
+.menubar, .sidebar-box, .fullscreen-btn {
+    background: white !important;
 }
 .menubar h4, .menubar-item p, .sidebar-box h4, .sidebar-item p {
     color: black !important;
@@ -172,7 +178,8 @@ body {
 .widget-icon-container img, .credit-image img,.content-makenew img, .image-container img,.credit-img img,
 .creation-btn img, .comment-menu img, .item-image img, .add-sprite img, .logout-button img, .delete-btn img,
 .con-container img, .content-lorebook-preview img, .content-title-select img, .comment-title-container-select img,
-.filter-container-select img, .content-header-select img, .fixed-icon-container img {
+.filter-container-select img, .content-header-select img, .fixed-icon-container img, .sprite-preview div img,
+.var-pill img, .fullscreen-btn img {
     filter: invert(1) !important;
 }
 
@@ -221,11 +228,15 @@ body {
 .content-half-box h3, .content-fullbox h3 {
     color: black !important;
 }
-
-.content-half-box .template-button, .content-select, .content-start-session, .content-add-lorebook, .content-lorebook-preview, .confirm-button, .speed-preview {
+.confirm-button, .cancel-button {
+    background: #bbb !important;
+    color:black !important;
+}
+.content-half-box .template-button, .content-select, .content-start-session, .content-add-lorebook,
+ .content-lorebook-preview, .speed-preview {
     background-color: #eee !important;
 }
-.template-button, .confirm-button p, .speed-preview p {
+.template-button, .speed-preview p {
     color:black !important;
 }
 .content-log-left {
@@ -352,4 +363,31 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 }
 .comment-title-container p {
     color: #1f1e33 !important;
+}
+.property-box {
+    background: #ebebeb !important;
+}
+.property-text {
+    color: #666 !important;
+}
+.property-row-select, .property-row input {
+    background: #e9e9e9 !important;
+    color: black !important;
+}
+.property-option {
+    color: black !important;
+}
+.sprite-preview {
+    background: #eee !important;
+}
+.sprite-preview div {
+    color: black !important;
+}
+.new-variable-btn {
+    background: #ddd !important;
+    color: black !important;
+}
+.variable-modal-select, .variable-varname-readonly, .variable-edit-modal input, .property-option-container {
+    background-color: #ddd !important;
+    color: black !important;
 }
