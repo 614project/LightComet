@@ -10,8 +10,11 @@ body {
     color: black !important;
 }
 
-.header-border, .header-textbtn {
+.header-border {
     background-color: #fafafa !important;
+}
+.header-textbtn, .header-svgbtn {
+    background: white !important;
 }
 
 .session-button {
@@ -71,13 +74,13 @@ body {
     color: black !important;
 }
 
-.creation-box:hover, .announcement-container:hover, .receipt-container:hover, .sidebar-item:hover, .menubar-item:hover,
+.creation-box:hover, .announcement-container:hover, .sidebar-item:hover, .menubar-item:hover,
 .session-menu-btn:hover, .follow-box:hover, .main-char-container:hover, .item-container:hover, .session-container:hover,
 .widget-item:hover, .delete-btn-cancel:hover, .delete-btn-confirm:hover, .character-container:hover, .option-box:hover,
 .edit-button:hover, .confirm-button:hover, .cancel-button:hover {
     background-color: #ddd !important;
 }
-.creation-btn:hover, .delete-btn:hover, .container-right-creator:hover, .edit-cancel:hover, .user-container:hover,
+.receipt-container:hover, .creation-btn:hover, .delete-btn:hover, .container-right-creator:hover, .edit-cancel:hover, .user-container:hover,
 .container-recent-preview:hover, .profile-container:hover, .property-option:hover {
     background-color: #eee !important;
 }
@@ -111,7 +114,10 @@ body {
     color: black !important;
 }
 
-.content-container .header-container, .buy-credit-box, .modal {
+.content-container .header-container {
+    background-color: #f4f4f4 !important;
+}
+.buy-credit-box, .modal {
     background-color: #eee !important;
 }
 .total-money-container h2, .paid-money p, .free-money p {
@@ -179,7 +185,8 @@ body {
 .creation-btn img, .comment-menu img, .item-image img, .add-sprite img, .logout-button img, .delete-btn img,
 .con-container img, .content-lorebook-preview img, .content-title-select img, .comment-title-container-select img,
 .filter-container-select img, .content-header-select img, .fixed-icon-container img, .sprite-preview div img,
-.var-pill img, .fullscreen-btn img {
+.var-pill img, .fullscreen-btn img, .content-log-edit img, .content-log-left img, .start-session-adder img,
+.credit-icon img {
     filter: invert(1) !important;
 }
 
@@ -389,5 +396,31 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 }
 .variable-modal-select, .variable-varname-readonly, .variable-edit-modal input, .property-option-container {
     background-color: #ddd !important;
+    color: black !important;
+}
+
+.content-start-session .content-log .content-log-right, 
+.content-half-box .content-start-session .content-variablebox,
+.content-container .content-fullbox .start-session-pill {
+    background: #f6f6f6 !important;
+}
+
+.setting-modal {
+    filter: invert(1) !important;
+}
+.setting-modal h4 {
+    font-weight: 400 !important;
+}
+.model-title .title-container .title-icon img {
+    filter: invert(1) !important;
+}
+.model-title .title-container p {
+    font-weight: 350 !important;
+}
+
+.currency-box {
+    background: #eee !important;
+}
+.currency-box p {
     color: black !important;
 }
