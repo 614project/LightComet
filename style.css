@@ -84,7 +84,7 @@ body {
 .container-recent-preview:hover, .profile-container:hover, .property-option:hover {
     background-color: #eee !important;
 }
-.con-container:hover, .edit-confirm:hover, .header-textbtn:hover {
+.con-container:hover, .edit-confirm:hover, .header-textbtn:hover, .edit-modal-select:hover {
     background-color: #eaeaea !important;
 }
 .notice-item:hover {
@@ -165,8 +165,8 @@ body {
     color: black !important;
 }
 
-.session-header, .message-input-container textarea, .edit-modal textarea, .edit-modal input, .reply-inputbox textarea {
-    background-color: #f8f8f8 !important;
+.message-input-container textarea, .edit-modal textarea, .edit-modal input, .reply-inputbox textarea {
+    background-color: #f7f7f7 !important;
     color: black !important;
 }
 .message-input {
@@ -186,7 +186,8 @@ body {
 .con-container img, .content-lorebook-preview img, .content-title-select img, .comment-title-container-select img,
 .filter-container-select img, .content-header-select img, .fixed-icon-container img, .sprite-preview div img,
 .var-pill img, .fullscreen-btn img, .content-log-edit img, .content-log-left img, .start-session-adder img,
-.credit-icon img {
+.credit-icon img, .side-icon img, .memory-tab-icon img, .edit-modal-select img, .session-header .session-header-content .session-model-btn img,
+.price-image img {
     filter: invert(1) !important;
 }
 
@@ -213,6 +214,9 @@ body {
 
 .persona-box, .add-sprite, .visibility-btn {
     background-color: #eee !important;
+}
+.persona-box {
+    border-color: #00f6b6 !important;
 }
 .visibility-btn.visibility-selected {
     background-color: #00f6b6 !important;
@@ -267,6 +271,7 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 }
 .image-edit-preview, .edit-confirm {
     background-color: #eee !important;
+    font-size: 1rem !important;
 }
 
 .image-edit-box, .edit-button {
@@ -285,6 +290,11 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
     color: black !important;
 }
 
+.setting-modal .edit-modal .edit-button-container .edit-confirm p {
+    font-size: 1rem !important;
+    color: black !important;
+}
+
 .hashtag-var-pill, .tab-empty-textbox, .home-edit-button, .profile-button, .series-edit-button {
     background-color: #e9e9e9 !important;
     color: black !important;
@@ -295,6 +305,9 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 }
 .edit-modal, .delete-modal {
     background-color: #fff !important;
+}
+.edit-modal p {
+    color: #444 !important;
 }
 .description-container, .notice-header {
     background-color: #f7f7f7 !important;
@@ -405,14 +418,8 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
     background: #f6f6f6 !important;
 }
 
-.setting-modal {
-    filter: invert(1) !important;
-}
 .setting-modal h4 {
     font-weight: 400 !important;
-}
-.model-title .title-container .title-icon img {
-    filter: invert(1) !important;
 }
 .model-title .title-container p {
     font-weight: 350 !important;
@@ -423,4 +430,97 @@ select[data-v-483a569f], select[data-v-4dd2da99], select[data-v-cbd07df6], .comm
 }
 .currency-box p {
     color: black !important;
+}
+
+.markdown-renderer p, .markdown-renderer em, .markdown-renderer strong, .markdown-renderer li {
+    color: black !important;
+}
+
+pre code .language-HUD {
+    background: #f0f0f0 !important;
+    color: black !important;
+}
+
+.user-input {
+    background: #e8e8e8 !important;
+}
+.user-input .markdown-renderer p {
+    color: black !important;
+}
+
+.side-home {
+    background: #f6f6f6 !important;
+}
+.side-home .side-button p {
+    color: black !important;
+}
+
+.edit-modal .memory-editor {
+    background: #f6f6f6 !important;
+}
+.edit-modal .memory-editor h4, .edit-modal .memory-editor p {
+    color: black !important;
+}
+.edit-modal .memory-editor input, .edit-modal .memory-editor textarea {
+    background: #eee !important;
+    color: black !important;
+}
+
+.memory-selector {
+    background: #e9e9e9 !important;
+}
+.memory-tab {
+    background: #ddd !important;
+}
+.memory-tab p {
+    color: black !important;
+}
+
+.edit-modal-select {
+    background: #ddd !important;
+    color: #222 !important;
+}
+
+.edit-modal-select p {
+    color: #222 !important;
+}
+
+.message-input-container .button {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+}
+.message-input-container .button img {
+    filter: invert(0.5) !important;
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    margin: 0 !important;
+}
+
+.session-header .session-header-content .session-model-btn p {
+    color: black !important;
+}
+
+.setting-modal {
+    background: #eee !important;
+}
+.setting-modal h4 {
+    color: black !important;
+}
+.setting-modal p {
+    color: #333 !important;
+}
+.setting-modal .model-box {
+    background: #d9d9d9 !important;
+}
+
+.setting-modal .model-box p {
+    color: #444 !important;
+}
+
+.model-title .title-container p {
+    color: black !important;
+}
+
+.screen-container .message-container, .session-header {
+    background-color: #f7f7f7a0 !important;
 }
