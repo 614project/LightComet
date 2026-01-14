@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Comet Light Theme",
-    "version": "0.6.1.4",
+    "version": "1.0",
     "author":"jyunni",
     "description": "코멧(comet-talk.ai)에서 밝은 테마를 즐겨보세요!",
     "host_permissions": [
